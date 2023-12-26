@@ -1,0 +1,52 @@
+.st-font{
+    font-family: "Satisfy";
+}
+html,
+body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+a.nav-link{
+    color: whitesmoke;
+}
+a.nav-link:hover{
+    color:black;
+    background-color: #e9cd79;
+}
+a.nav-link.active{
+    color: black;
+    background-color: #ffc107;
+    font-weight: bold;
+}
+.form-group label {
+    color: #ffffff; /* Label text color */
+}
+.service-card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.service-card-body {
+    padding: 20px;
+    color: white;
+}
+.skill-card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.skill-card-body {
+    padding: 20px;
+    color: white;
+}
+
+.skill-icon {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
